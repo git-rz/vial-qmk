@@ -1,0 +1,78 @@
+{
+  "name": "velvet",
+  "vendorId": "0xFEED",
+  "productId": "0x6060",
+  "uid": "A219735F8CD1029E",
+  "lighting": "vialrgb",
+  "matrix": {
+    "rows": 8,
+    "cols": 5
+  },
+  "customKeycodes": [
+    {
+      "name": "My Copy",
+      "title": "Copy (Cmd/Ctrl+C)",
+      "shortName": "KC_MY_COPY"
+    },
+    {
+      "name": "My Paste",
+      "title": "Paste (Cmd/Ctrl+V)",
+      "shortName": "KC_MY_PASTE"
+    },
+    {
+      "name": "My Undo",
+      "title": "Undo (Cmd/Ctrl+Z)",
+      "shortName": "KC_MY_UNDO"
+    },
+    {
+      "name": "My Redo",
+      "title": "Redo (Cmd/Ctrl+Y)",
+      "shortName": "KC_MY_REDO"
+    },
+    {
+      "name": "My Cut",
+      "title": "Cut (Cmd/Ctrl+X)",
+      "shortName": "KC_MY_CUT"
+    },
+    {
+      "name": "My move by word",
+      "title": "Word Move Modifier (Alt/Ctrl)",
+      "shortName": "KC_MY_WORD"
+    },
+    {
+      "name": "My select all",
+      "title": "Select all (Cmd/Ctrl-a)",
+      "shortName": "KC_MY_ALL"
+    }
+  ],
+  "layers": ["Base", "Nav", "Symbols", "NumPad", "FKeyPad", "Game", "Media", "Tmux", "Aux"],
+  "layouts": {
+    "labels": [
+      ["Bottom row", "1u"]
+    ],
+    "keymap": [
+      [
+        "0,0", "0,1", "0,2", "0,3", "0,4", {"x":2}, "4,4", "4,3", "4,2", "4,1", "4,0"
+      ],
+      [
+        "1,0", "1,1", "1,2", "1,3", "1,4",{"x":2}, "5,4", "5,3", "5,2", "5,1", "5,0"
+      ],
+      [
+        "2,0", "2,1", "2,2", "2,3", "2,4",{"x":2}, "6,4", "6,3", "6,2", "6,1", "6,0"
+      ],
+      [
+        {"x":1},
+        "3,1\n\n\n0,0",
+        "3,2\n\n\n0,0",
+        "3,3\n\n\n0,0",
+        "3,4\n\n\n0,0",
+        {"x":2},
+        "7,4\n\n\n0,0",
+        "7,3\n\n\n0,0",
+        "7,2\n\n\n0,0",
+        "7,1\n\n\n0,0",
+        {"x":1}
+      ]
+    ]
+  }
+}
